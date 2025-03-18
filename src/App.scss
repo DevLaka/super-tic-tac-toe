@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.app-container {
+  text-align: center;
+
+  h1 {
+    .colored-letter:nth-child(odd) {
+      color: #ffc719;
+    }
+
+    .colored-letter:nth-child(even) {
+      color: #ff193b;
+    }
+  }
+
+  .player-details-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+  }
+
+  .column-buttons-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+
+    .column-button {
+      width: 50px;
+      height: 50px;
+      margin: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 34px;
+        height: 34px;
+        margin: 2px;
+      }
+    }
+  }
+
+  .board-container {
+    background-color: #9529ff;
+    border-radius: 20px;
+    padding: 8px;
+  }
+
+  .dim-content {
+    opacity: 40%;
+  }
+}
